@@ -1,0 +1,19 @@
+{
+  "name": "mcp-master",
+  "version": "1.0.0",
+  "description": "Kumpulan MCP server utilitas siap pakai — time, uuid, base64, hash, password generator",
+  "type": "module",
+  "bin": {
+    "mcp-master": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "license": "MIT"
+}
